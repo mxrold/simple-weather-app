@@ -4,7 +4,7 @@ In this little project, you can check the weather just by typing the name of a c
 
 ## Preview 🖼
 
-![Design preview](./assets/simple-weather-app-desktop.png)
+![Design preview](./src/assets/simple-weather-app-desktop.png)
 
 ## Demo 💻
 
