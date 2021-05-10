@@ -1,0 +1,17 @@
+{
+  "name": "mxrold-weather-app",
+  "version": "1.0.0",
+  "description": "In this little project, you can check the weather just by typing the name of a city. It will display data like temperature, pressure, humidity and current weather.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Martin Roldan <martinroldan889@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fast-levenshtein": "^3.0.0"
+  }
+}
