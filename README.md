@@ -15,7 +15,7 @@ If you want to see the demo, you can visit this link. **[Demo of the project](ht
 To run this project or you want to modify something, you needed the next points
 - A browser.
 - A code editor as Visual Studio Code, Atom, Sublime Text, among others.
-- Have npm installed
+- Have npm installed or Git
 
 ## Installation - How to clone 🚀
 
