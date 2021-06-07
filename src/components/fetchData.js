@@ -13,6 +13,6 @@ export const fetchData = async (city) => {
         createCardWeather(responseJson);
     } catch(error) {
         const message = `The city ${city} was not found. Try again.`
-        errorSearch(message, error.message, responseJson, city);
+        errorSearch(message);
     }
 }

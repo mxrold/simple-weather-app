@@ -10,11 +10,10 @@ const kelvinToCelsius = (kelvin) => {
 
 export const createCardWeather = (responseJson) => {
     const { name, sys, main, weather } = responseJson;
-    const id = responseJson.id;
 
     const container = document.createElement('div');
     container.className = 'app__weather';
-    container.id = id;
+    container.id = responseJson.id
 
     const dataLeft = document.createElement('div');
     dataLeft.className = 'app__weather--dataLeft';

@@ -1,7 +1,7 @@
 const main = document.querySelector('.main');
 const app = document.querySelector('.app');
 
-export const errorSearch = (message, error, responseJson, city) => {
+export const errorSearch = (message) => {
     const cardError = document.createElement('div');
     cardError.className = 'card__error';
 

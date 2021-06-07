@@ -1,3 +1,4 @@
+  
 import { fetchData } from './components/fetchData.js';
 import { nullSearch } from './components/nullSearch.js';
 import { cleanAppCards } from './components/cleanAppCards.js';
@@ -27,6 +28,3 @@ const cleanApp = e => {
 
 btnSearch.addEventListener('click', validatedForm);
 btnDelete.addEventListener('click', cleanApp);
-
-
-

@@ -3,7 +3,7 @@
     --secondary: rgb(238, 137, 42);
     --red: #cc3d24;
     --gray: #c5bfbf;
-    --white: #f8efef;
+    --white: #ece5e5;
     --white2: #d6cdcd;
 }
 
@@ -47,7 +47,7 @@ html {
 
 .header h1 {
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -92,7 +92,7 @@ html {
     width: 45%;
     height: 35px;
     font-size: 1.4rem;
-    font-weight: bold;
+    font-weight: '500';
     letter-spacing: .5px;
     color: var(--white);
     border-radius: 3px;
@@ -147,7 +147,7 @@ html {
 .app__weather--dataLeft-title {
     margin-bottom: 13px;
     font-size: 1.8rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .app__weather--dataLeft-title span {
@@ -160,7 +160,7 @@ html {
 
 .app__weather--dataLeft-temp {
     font-size: 2.4rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .app__weather--dataLeft-icon {
@@ -182,7 +182,7 @@ html {
 .app__weather--dataRight-humidity {
     margin-bottom: 13px;
     font-size: 1.8rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .card__error {
@@ -198,7 +198,7 @@ html {
 
 .card_error--message {
     font-size: 1.6rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .made__by {
@@ -207,7 +207,7 @@ html {
     margin-top: 20px;
     padding: 20px;
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -227,11 +227,10 @@ html {
     border-bottom: none;
 }
 
-.header__form form input:focus,
-.header__form--buttons button:focus,
-a:focus {
-    margin: 3px;
-    outline: 2px dotted var(--secondary);
+.header__form form input:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
 
 
