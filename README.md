@@ -4,7 +4,7 @@ In this little project, you can check the weather just by typing the name of a c
 
 ## Preview 🖼
 
-![Design preview](./src/assets/simple-weather-app-desktop.png)
+![Design preview](./src/assets/simple-weather-app-preview.png)
 
 ## Demo 💻
 
@@ -15,16 +15,11 @@ If you want to see the demo, you can visit this link. **[Demo of the project](ht
 To run this project or you want to modify something, you needed the next points
 - A browser.
 - A code editor as Visual Studio Code, Atom, Sublime Text, among others.
-- Have npm installed or Git
+- Have Git installed
 
 ## Installation - How to clone 🚀
 
-To install and run this project you can to do with __npm__ or __git clone__
-- With npm
-~~~
-npm i mxrold-weather-app
-~~~
-
+To install and run this project you can to do with __git clone__
 - With HTTPS
 ~~~
 https://github.com/mxrold/simple-weather-app.git

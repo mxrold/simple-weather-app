@@ -11,7 +11,5 @@
   ],
   "author": "Martin Roldan <martinroldan889@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "fast-levenshtein": "^3.0.0"
-  }
+  "dependencies": {}
 }
